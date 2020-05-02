@@ -14,6 +14,7 @@ Containerized tools for reviewing (potentially) obfuscated JavaScript
 
 ## Launch
 
-_networking is disabled by default_
+Add the samples that you'd like to look at to `volumes/samples` directory, and this will get mounted in as your working dir
 
+_networking is disabled by default_    
 `$ ./scripts/launch.sh`
